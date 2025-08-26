@@ -1,12 +1,21 @@
 ├── 1.1.access_03.log              # Sample access log file
+
 ├── 1.problem_03(topIPs).py        # Script to analyze top IPs from access logs
+
 ├── 2.problem_06(cpu_memory).py    # Script to monitor CPU and memory usage
+
 ├── 3.problem_09(disk usages).py   # Script to monitor disk usage
+
 ├── 4.1system_log_12.1.txt         # System performance log (CPU, Memory, Disk)
+
 ├── 4.problem_12(Automated_disk).py # Automated disk usage monitoring & alerts
+
 ├── 5.problem_15(send_email_alert).py # Script to send email alerts
+
 ├── 6.slack_alert.py               # Script to send alerts via Slack
+
 ├── 7.1.system_report.log          # Daily system report log
+
 ├── 7.Mini_monetring_system.py     # Combined monitoring system script                                                                                                                                                                 
 
 
