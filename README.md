@@ -19,7 +19,7 @@
 ├── 7.Mini_monetring_system.py     # Combined monitoring system script                                                                                                                                                                 
 
 
-🚀 Features
+# 🚀 Features
 
 1. Log Analysis
 
@@ -55,16 +55,16 @@
 
        Acts as the central monitoring script.
 
-# 1. Clone Repository
+## 1. Clone Repository
 
  git clone https://github.com/your-repo/mini-monitoring-system.git
  cd mini-monitoring-system
 
-# 2. Install Requirements
+## 2. Install Requirements
 
     pip3 install psutil requests smtplib
 
-# 3. Run Individual Scripts
+## 3. Run Individual Scripts
 
 - Analyze top IPs:
 
