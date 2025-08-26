@@ -68,32 +68,65 @@
 
 - Analyze top IPs:
 
-    python3 1.problem_03(topIPs).py 1.1.access_03.log
+      python3 1.problem_03(topIPs).py 1.1.access_03.log
 		
 - Monitor CPU & Memory:
 
-    python3 2.problem_06(cpu_memory).py
+      python3 2.problem_06(cpu_memory).py
 
 - Check Disk Usage:
 
-    python3 3.problem_09(disk usages).py
+      python3 3.problem_09(disk usages).py
 		
 - Automated Disk Alerts:
 
-    python3 4.problem_12(Automated_disk).py
+      python3 4.problem_12(Automated_disk).py
 
 - Send Email Alerts:
 
-  	python3 5.problem_15(send_email_alert).py
+  	  python3 5.problem_15(send_email_alert).py
 
 - Send Slack Alerts:
 
-   python3 6.slack_alert.py
+      python3 6.slack_alert.py
 
 - Run Full Monitoring System:
 
-   python3 7.Mini_monetring_system.py
+      python3 7.Mini_monetring_system.py
 
+
+# 📊 Sample Logs
+
+- Access Log (1.1.access_03.log):
+
+      203.0.113.99 - - [20/Aug/2025:14:06:55 +0000] "GET /admin HTTP/1.1" 403 215
+
+
+- System Log (4.1system_log_12.1.txt):
+
+      2025-08-25T10:14:05 | CPU:16.6% | Memory:56.0% | Disk:2.5%
+
+
+- System Report (7.1.system_report.log):
+
+      2025-08-26 12:48:05 | CPU:16.0% | MEMORY:57.2% | DISK:2.5%
+ 
+# 🔔 Alerts
+
+- Email Alerts require SMTP configuration (update credentials inside
+
+      5.problem_15(send_email_alert).py).
+
+- Slack Alerts require a webhook URL (configure in 6.slack_alert.py).
+
+
+#📌 Future Improvements
+
+- Add real-time dashboard for system metrics.
+
+- Extend log analysis to detect brute-force attempts.
+
+- Dockerize monitoring system for portability.
 
 
 
