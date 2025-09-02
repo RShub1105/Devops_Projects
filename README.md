@@ -16,7 +16,11 @@
 
 ├── 7.1.system_report.log          # Daily system report log
 
-├── 7.Mini_monetring_system.py     # Combined monitoring system script                                                                                                                                                                 
+├── 7.Mini_monetring_system.py     # Combined monitoring system script        
+
+|-  8.Devops_automation_script     # A versatile DevOps automation script.
+
+|-- 9.devops_Automation_toolkit    # A comprehensive collection of DevOps automation tools.
 
 
 # 🚀 Features
