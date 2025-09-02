@@ -25,39 +25,13 @@
 
 # 🚀 Features
 
-1. Log Analysis
+#### 💻 Mini Monitoring System (7.Mini_monetring_system.py)
 
-       Extracts top IP addresses from access logs (1.problem_03(topIPs).py).
+- This is the heart of the repository. It's an all-in-one script that combines multiple monitoring functions into a single, easy-to-run tool. It can monitor CPU, memory, and disk usage, and analyze log files to find top IPs,        providing a complete view of your system's health.
 
-       Helps identify suspicious or frequent traffic sources.
 
-2. Resource Monitoring
-
-       CPU & memory monitoring (2.problem_06(cpu_memory).py).
-
-       Disk usage monitoring (3.problem_09(disk usages).py).
-
-       Stores results in structured log files (4.1system_log_12.1.txt, 7.1.system_report.log).
-
-3. Automation
-
-       Automated disk usage alerts (4.problem_12(Automated_disk).py).
-
-       Configurable thresholds for proactive monitoring.
-
-4. Alert System
-
-       Email alerts (5.problem_15(send_email_alert).py).
-
-       Slack alerts (6.slack_alert.py).
-
-       Ensures admins are notified immediately when resources exceed safe limits.
-
-6. All-in-One Monitoring
-
-        7.Mini_monetring_system.py combines CPU, memory, and disk monitoring with logging.
-
-       Acts as the central monitoring script.
+#### 🤖 DevOps Automation Toolkit (9.devops_Automation_toolkit)
+- This toolkit contains a series of scripts designed to automate common DevOps tasks. It's an extensible framework you can use to streamline your workflows, from deployment to routine maintenance.
 
 ## 1. Clone Repository
 
